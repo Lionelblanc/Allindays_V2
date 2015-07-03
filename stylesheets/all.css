@@ -9243,6 +9243,23 @@ button.close {
 .fa-meanpath:before {
   content: ""; }
 
+/* line 1, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_footer.css.scss */
+#footer {
+  background-color: black;
+  color: white;
+  padding: 3em; }
+
+/* line 6, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_footer.css.scss */
+a {
+  color: white; }
+  /* line 8, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_footer.css.scss */
+  a:hover {
+    color: #CBAB54; }
+
+/* line 12, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_footer.css.scss */
+.social a {
+  font-size: 24px; }
+
 /* -------------------------------------
  * Colors & Fonts
  * ------------------------------------- */
@@ -9287,7 +9304,7 @@ button.close {
   /* line 65, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a:hover,
   .navbar-wagon .navbar-nav > .open > a:hover {
-    color: #FDB631;
+    color: #CBAB54;
     background-color: transparent; }
   /* line 71, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand,
@@ -9365,38 +9382,92 @@ button.close {
  * ------------------------------------- */
 /* line 7, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_utilities.css.scss */
 .padded {
-  padding-top: 8em;
-  padding-bottom: 8em; }
+  padding-top: 8em; }
 
-/* line 11, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_utilities.css.scss */
+/* line 10, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_utilities.css.scss */
+.padded-xs {
+  padding-top: 5em; }
+
+/* line 13, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_utilities.css.scss */
 .bg-red {
   background: #EE5F5B;
   color: white; }
 
-/* line 15, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_utilities.css.scss */
+/* line 17, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_utilities.css.scss */
 .bg-blue {
   background: #469AE0;
   color: white; }
 
-/* line 19, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_utilities.css.scss */
+/* line 21, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_utilities.css.scss */
 .bg-yellow {
   background: #FDB631;
   color: white; }
 
-/* line 23, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_utilities.css.scss */
+/* line 25, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_utilities.css.scss */
 .bg-orange {
   background: #E67E22;
   color: white; }
 
-/* line 27, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_utilities.css.scss */
+/* line 29, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_utilities.css.scss */
 .bg-green {
   background: #32B796;
   color: white; }
 
-/* line 31, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_utilities.css.scss */
+/* line 33, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_utilities.css.scss */
 .bg-purple {
   background: #6452BD;
   color: white; }
+
+/* line 1, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+#wrapper {
+  background-image: url("../images/background.jpg");
+  height: 800px;
+  background-size: cover;
+  padding-top: 200px;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
+  /* line 8, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+  #wrapper h1 {
+    font-size: 50px; }
+  /* line 11, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+  #wrapper h2 {
+    font-size: 18px;
+    margin-bottom: 1em; }
+
+/* line 18, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+.feature h4 {
+  color: #CBAB54; }
+/* line 21, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+.feature img {
+  margin-bottom: 2em;
+  width: 110px;
+  height: 110px; }
+
+/* line 28, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+.testimonial {
+  padding: 40px;
+  margin: 10px; }
+  /* line 31, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+  .testimonial img {
+    width: 30%;
+    margin: O auto; }
+
+/* line 37, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+.guest {
+  padding: 40px;
+  margin: 10px; }
+  /* line 40, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+  .guest img {
+    width: 30%;
+    margin: O auto; }
+
+/* line 46, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+.thumbnail {
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  background: white; }
+  /* line 49, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+  .thumbnail img {
+    padding: 10px; }
 
 /*
 ==============================================
