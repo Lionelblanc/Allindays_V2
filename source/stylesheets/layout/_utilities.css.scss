@@ -5,7 +5,9 @@
  * ------------------------------------- */
 .padded {
   padding-top: 8em;
-  padding-bottom: 8em;
+}
+.padded-xs {
+  padding-top: 5em;
 }
 .bg-red {
   background: $red;

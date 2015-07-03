@@ -1,0 +1,6 @@
+- name: Manu
+  content: Super pratique ! J'ai loué mon appartement en un instant et j'ai déjà des revenus! Je recommande à tous ce service.
+  image_file: manu.png
+- name: Lionel
+  content: Après 1 an sur AirBnB j'ai décidé de confier mon appartement à Allindays pour plus de liberté. C'est top!  
+  image_file: lio.png

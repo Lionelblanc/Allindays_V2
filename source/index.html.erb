@@ -1,10 +1,149 @@
 ---
-title: Le Wagon Middleman boilerplate
+title: Allindays - Louez votre appartement en toute tranquilité
+<meta name="description" content="Allindays est un service de location de votre appartements alliant service et confort pour vos hôtes. Confiez-nous votre appartement et bénéficiez de nos services en toute tranquilité" />
+<%= image_tag 'allindays.ico' %>
 ---
 
-<div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<div id="wrapper">
+  <div class="container text-left">
+    <div class="row">
+      <div class="col-sm-12 col-md-4"> 
+        <div class="pullDown">
+          <h1>La location courte durée, les services en <strong>plus</strong>.</h1>
+          <h2><strong>Service de location et d'accueil de vos hôtes clé en main</strong></h2>
+        </div>        
+      </div>
+          <% link_to "/#feature" do %>
+
+  <div class="padded"></div>
+                  <i class="fa fa-chevron-down fa-3x pulse"></i>
+                 <% end %>
+     </div>        
+    </div>
+</div>
+
+<div id="feature">
+  <div class="padded-xs"></div>
+  <div class="container text-center feature">
+    <h3><strong>COMMENT ÇA MARCHE ?</strong></h3>
+    <br>
+      <div class="row">
+        <div class="col-sm-12 col-md-4" data-sr="wait 0.5s, ease-in-out 100px">
+          <%= image_tag "contact.svg"%>
+          <h4>Communication avec vos hôtes</h4> 
+          <p>
+          Nous sommes le contact de vos hôtes, de leur arrivée jusqu'à leur départ. Nous sommes disponibles tout au long de leur séjour. 
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-4" data-sr="wait 1s, ease-in-out 100px">
+          <%= image_tag "clean.svg"%>
+          <h4>Entretien et remise des clés</h4>  
+          <p>
+          Nous mettons à disposition le nécessaire pour vos hôtes (draps, serviettes, café et même des pâtes! ) et veuillons à la propreté de votre appartement.
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-4" data-sr="wait 1.5s, ease-in-out 100px">
+          <%= image_tag "data.svg"%>
+          <h4>Augmenter vos réservations</h4> 
+          <p>
+            Grâce à notre logiciel de suivi et notre expérience, nous optimisons la réservation de votre appartement pour un remplissage maximum. 
+          </p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="padded-xs"></div>
+
+<div class="container text-right">
+      <% link_to "/connect.html" do %>
+                 <buttontype="submit" class="btn btn-danger"><strong>ET BIEN PLUS...</strong></button> 
+               <% end %> 
+</div>
+
+<div class="container text-center">
+       <% link_to "/#testimonials" do %><i class="fa fa-chevron-down fa-3x pulse"></i>
+        <% end %>
+</div>
+
+<div class="padded"></div>
+
+<div id="testimonials">
+<div class="padded-xs"></div>
+  <div class="container text-center thumbnail">
+    <h3><strong>L'AVIS DES PROPRIETAIRES</strong></h3>
+    <hr>
+    <% data.testimonials.each do |testimonial| %>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div class="testimonial slideUp">
+            <%= image_tag testimonial.image_file, class: "img-circle" %>
+            <h3><%= testimonial.name %></h3>
+            <p> <i class="fa fa-quote-left"></i> <%= testimonial.content %> <i class="fa fa-quote-right"></i></p>
+          </div>
+        </div>
+    <% end %>
+      </div>  
+  </div>
+</div>
+
+<div id="guests">
+  <div class="container text-center">
+    <h3><strong>VOS HÔTES SONT RAVIS!</strong></h3>
+    <br>
+    <% data.guests.each do |guest| %>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <div class="guest slideUp">
+            <%= image_tag guest.image_file, class: "img-circle" %>
+            <h3><%= guest.name %></h3>
+            <p><i class="fa fa-quote-left"></i>  <%= guest.content %> <i class="fa fa-quote-right"></i></p>
+          </div>
+        </div>
+    <% end %>
+      </div>  
+  </div>
+</div>
+
+<div class="padded-xs"></div>
+
+<div id="newsletter">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-xs-12 text center">
+      <!-- Begin MailChimp Signup Form -->
+      <h2>Inscrivez-vous à la newsletter</h2>
+        <div id="mc_embed_signup">
+          <form action="http://ridr.us10.list-manage.com/subscribe/post?u=bd4117c225134195f159afc4a&amp;id=6903dbdf0c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
+          <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="entrez votre e-mail" required>
+          <br>
+          <br>
+          <input type="submit" value="Suivez-nous!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-danger"></div>
+          </form>
+        </div>
+      <!--End mc_embed_signup-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="padded-xs"></div>
+
+
+<script>
+  $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+   window.sr = new scrollReveal();
+</script>
