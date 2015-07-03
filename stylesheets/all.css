@@ -9418,6 +9418,15 @@ a {
   background: #6452BD;
   color: white; }
 
+/* line 1, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_contact.css.scss */
+.teams {
+  padding: 40px;
+  margin: 10px; }
+  /* line 4, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_contact.css.scss */
+  .teams img {
+    width: 30%;
+    margin: O auto; }
+
 /* line 1, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
 #wrapper {
   background-image: url("../images/background.jpg");
@@ -9464,10 +9473,20 @@ a {
 /* line 46, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
 .thumbnail {
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
-  background: white; }
-  /* line 49, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+  background: white;
+  padding: 40px; }
+  /* line 50, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
   .thumbnail img {
     padding: 10px; }
+
+/* line 55, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+.team {
+  padding: 40px;
+  margin: 10px; }
+  /* line 58, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+  .team img {
+    width: 30%;
+    margin: O auto; }
 
 /*
 ==============================================
