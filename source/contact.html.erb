@@ -1,0 +1,70 @@
+<div class="padded"></div>
+<div id="contact">
+  <div class="container thumbnail">
+    <div class="row">
+       <div class="col-xs-12 col-sm-12 col-md-12">
+        <h2>Contactez-nous</h2>
+        <hr>
+        <i class="fa fa-envelope-o fa-2x"></i> contact@allindays.com
+        <br>
+        <i class="fa fa-phone fa-2x"></i> 09 83 33 48 81
+        <br>
+        <i class="fa fa-home fa-2x"></i> Société par action simplifiée au capital de 10000 EUR - Siret - 807 786 868 00016 - Numéro de TVA - FR 13807786868</i>
+          <hr>
+        <h4>Nous sommes ici: </h4>
+        <i class="fa fa-map-marker fa-2x"></i>
+        131 Boulevard Pereire, 75017 Paris
+
+          <div id="map" style="width: 100%; height: 350px;">
+          </div>
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+        <script type="text/javascript">
+        var myLatlng = new google.maps.LatLng(48.884134,2.296351);
+
+        var myOptions = {
+        zoom: 16,
+        center: myLatlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":60}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"visibility":"on"},{"lightness":30}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ef8c25"},{"lightness":40}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#b6c54c"},{"lightness":40},{"saturation":-40}]},{}]
+  };
+
+      var map = new google.maps.Map(document.getElementById('map'), myOptions);
+      var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: "You are here!"
+  });
+      </script>
+    </div>
+  </div>
+</div>
+
+<div id="teams">
+  <div class="padded-xs"></div>
+    <div class="container text-center">
+      <h3><strong>L'EQUIPE ALLINDAYS</strong></h3>
+      <hr>
+      <% data.teams.each do |team| %>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="team slideUp">
+            <%= image_tag team.image_file, class: "img-circle" %>
+            <h3><%= team.name %></h3>
+            <p><%= team.content %></p>
+          </div>
+        </div>
+    <% end %>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <p>Professionnels de l'immobilier Parisien <strong>depuis plus de 10 ans</strong>, nous sommes également de grands connaisseurs de la vie parisienne et de sa saisonnalité. Paris est pour nous ​un berceau culturel chargé d'histoire avec des monuments époustouflants, de grandes marques luxueuses dont la réputation n'est plus à faire. Notre équipe se met à votre service pour rendre votre séjour Parisien le plus confortable pour vous, vous n'aurez qu'à profiter de votre voyage nous nous occupons du reste !
+          </p>
+      </div>
+    </div>    
+  </div>    
+</div>
+
+<div class="padded-xs"></div>
+

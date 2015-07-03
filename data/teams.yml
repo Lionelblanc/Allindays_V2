@@ -1,0 +1,6 @@
+- name: Emmanuel Blanc 
+  content: Fondateur  
+  image_file: manu.png
+- name: Michel Vilela 
+  content: Directeur Associé
+  image_file: michel.jpg
