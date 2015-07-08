@@ -1,20 +1,34 @@
+
 <div class="padded"></div>
+
 <div id="contact">
   <div class="container thumbnail">
     <div class="row">
-       <div class="col-xs-12 col-sm-12 col-md-12">
+       <div class="col-xs-12 col-sm-12 col-md-12 text-center">
         <h2>Contactez-nous</h2>
         <hr>
-        <i class="fa fa-envelope-o fa-2x"></i> contact@allindays.com
+      </div>
+    </div>
+    <div class="row">
+       <div class="col-xs-6 col-sm-6 col-md-6 text-center">
+        <p><i class="fa fa-envelope-o fa-2x"></i> E-mail: contact@allindays.com</p>
         <br>
-        <i class="fa fa-phone fa-2x"></i> 09 83 33 48 81
-        <br>
-        <i class="fa fa-home fa-2x"></i> Société par action simplifiée au capital de 10000 EUR - Siret - 807 786 868 00016 - Numéro de TVA - FR 13807786868</i>
-          <hr>
-        <h4>Nous sommes ici: </h4>
-        <i class="fa fa-map-marker fa-2x"></i>
-        131 Boulevard Pereire, 75017 Paris
+      </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 text-center">   
+        <p><i class="fa fa-phone fa-2x"></i> 09 83 33 48 81</p>
+      </div>
+    </div> 
+    <div class="row">
+       <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+        <p><i class="fa fa-home fa-2x"></i> Société par action simplifiée au capital de 10000 EUR - Siret - 807 786 868 00016 - Numéro de TVA - FR 13807786868</p>
+        <hr>
+      </div>
+    </div> 
 
+        <h4>Nous sommes ici:</h4>
+        
+        <p><i class="fa fa-map-marker fa-2x"></i> 131 Boulevard Pereire, 75017 Paris</p>
+        <br>
           <div id="map" style="width: 100%; height: 350px;">
           </div>
 
@@ -27,14 +41,14 @@
         center: myLatlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":60}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","stylers":[{"visibility":"on"},{"lightness":30}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ef8c25"},{"lightness":40}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#b6c54c"},{"lightness":40},{"saturation":-40}]},{}]
-  };
+          };
 
-      var map = new google.maps.Map(document.getElementById('map'), myOptions);
-      var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map,
-      title: "You are here!"
-  });
+              var map = new google.maps.Map(document.getElementById('map'), myOptions);
+              var marker = new google.maps.Marker({
+              position: myLatlng,
+              map: map,
+              title: "You are here!"
+          });
       </script>
     </div>
   </div>

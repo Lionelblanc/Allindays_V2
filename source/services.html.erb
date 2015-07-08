@@ -1,0 +1,118 @@
+
+<div class="padded-xs"></div>
+
+<div id="services">
+  <div class="padded-xs"></div>
+  <div class="container text-center feature">
+    <h3><strong>Pour augmentez vos revenus sur vos locations courte durée, nous vous proposons:</strong></h3>
+    <br>
+    <br>  
+      <div class="row">
+        <div class="col-sm-12 col-md-3" data-sr="wait 0.5s, ease-in-out 100px">
+          <%= image_tag "chat.svg"%>
+          <% link_to "/#chat" do %>
+          <p><strong>La réponse immédiate à vos demandes clients (en plusieurs langues)</strong></p> 
+          <% end %>
+        </div>
+        <div class="col-sm-12 col-md-3" data-sr="wait 1s, ease-in-out 100px">
+          <%= image_tag "calendar.svg"%>
+          <% link_to "/#calendar" do %>
+          <p><strong>La gestion complète de vos réservations</strong></p>
+          <% end %> 
+        </div>
+        <div class="col-sm-12 col-md-3" data-sr="wait 1.5s, ease-in-out 100px">
+          <%= image_tag "profil.svg"%>
+          <% link_to "/#profil" do %>
+          <p><strong>L'optimisation de votre profil et de vos annonces</strong></p>
+          <% end %> 
+        </div>
+        <div class="col-sm-12 col-md-3" data-sr="wait 1.5s, ease-in-out 100px">
+          <%= image_tag "bag.svg"%>
+          <% link_to "/#bag" do %>
+          <p><strong>L'accueil des voyageurs et l'explication des consignes</strong></p>
+          <% end %> 
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="padded-xs"></div>
+
+<div id="chat">
+  <div class="padded-xs"></div>
+    <div class="container text-center thumbnail">
+      <h3><strong>REPONDRE A VOS CLIENTS</strong></h3>
+      <hr>
+    </div>  
+  </div>
+</div>
+
+<div id="calendar">
+  <div class="padded-xs"></div>
+    <div class="container text-center thumbnail">
+      <h3><strong>GESTION DES RÉSERVATIONS</strong></h3>
+      <hr>
+    </div>  
+  </div>
+</div>
+
+<div id="profil">
+  <div class="padded-xs"></div>
+    <div class="container text-center thumbnail">
+      <h3><strong>OPTIMISER VOTRE PROFIL</strong></h3>
+      <hr>
+    </div>  
+  </div>
+</div>
+
+<div id="bag">
+  <div class="padded-xs"></div>
+    <div class="container text-center thumbnail">
+      <h3><strong>ACCUEILLIR VOS HÔTES ET ENTRETENIR VOTRE BIEN</strong></h3>
+      <hr>
+    </div>  
+  </div>
+</div>
+
+<div class="padded-xs"></div>
+
+<div id="newsletter">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-xs-12 text center">
+      <!-- Begin MailChimp Signup Form -->
+      <h2>Inscrivez-vous à la newsletter</h2>
+        <div id="mc_embed_signup">
+          <form action="http://ridr.us10.list-manage.com/subscribe/post?u=bd4117c225134195f159afc4a&amp;id=6903dbdf0c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" novalidate>
+          <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="entrez votre e-mail" required>
+          <br>
+          <br>
+          <input type="submit" value="Suivez-nous!" name="subscribe" id="mc-embedded-subscribe" class="btn btn-danger"></div>
+          </form>
+        </div>
+      <!--End mc_embed_signup-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="padded-xs"></div>
+
+
+<script>
+  $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+   window.sr = new scrollReveal();
+</script>
