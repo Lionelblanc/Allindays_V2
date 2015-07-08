@@ -9488,6 +9488,14 @@ a {
     width: 30%;
     margin: O auto; }
 
+/* line 2, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
+#services a {
+  color: black;
+  text-decoration: none; }
+/* line 6, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
+#services a:hover {
+  color: #CBAB54; }
+
 /*
 ==============================================
 CSS3 ANIMATION CHEAT SHEET
