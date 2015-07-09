@@ -7,3 +7,28 @@
 	color: $allindays;
 	}
 }
+
+.thumbnail {
+	h3 {
+	text-align: center;
+	img {
+	height:60px;
+	width:60px;
+	}
+}
+	li {
+	margin-bottom: 20px;
+	}
+	ul {
+list-style-type: none;
+	}
+	
+}
+img {
+	padding-top:20px;
+	width:400px;
+	border-radius: 20px;
+}
+p {
+	padding-top:20px;
+}

@@ -10,25 +10,25 @@
       <div class="row">
         <div class="col-sm-12 col-md-3" data-sr="wait 0.5s, ease-in-out 100px">
           <%= image_tag "chat.svg"%>
-          <% link_to "/#chat" do %>
-          <p><strong>La réponse immédiate à vos demandes clients (en plusieurs langues)</strong></p> 
+          <% link_to "#chat" do %>
+          <p><strong>La réponse immédiate à vos demandes clients</strong></p> 
           <% end %>
         </div>
         <div class="col-sm-12 col-md-3" data-sr="wait 1s, ease-in-out 100px">
           <%= image_tag "calendar.svg"%>
-          <% link_to "/#calendar" do %>
+          <% link_to "#calendar" do %>
           <p><strong>La gestion complète de vos réservations</strong></p>
           <% end %> 
         </div>
         <div class="col-sm-12 col-md-3" data-sr="wait 1.5s, ease-in-out 100px">
           <%= image_tag "profil.svg"%>
-          <% link_to "/#profil" do %>
+          <% link_to "#profil" do %>
           <p><strong>L'optimisation de votre profil et de vos annonces</strong></p>
           <% end %> 
         </div>
         <div class="col-sm-12 col-md-3" data-sr="wait 1.5s, ease-in-out 100px">
           <%= image_tag "bag.svg"%>
-          <% link_to "/#bag" do %>
+          <% link_to "#bag" do %>
           <p><strong>L'accueil des voyageurs et l'explication des consignes</strong></p>
           <% end %> 
         </div>
@@ -41,7 +41,7 @@
 <div id="chat">
   <div class="padded-xs"></div>
     <div class="container text-center thumbnail">
-      <h3><strong>REPONDRE A VOS CLIENTS</strong></h3>
+      <h3><%= image_tag "chat.svg"%> <strong>REPONDRE A VOS CLIENTS</strong></h3>
       <hr>
     </div>  
   </div>
@@ -50,7 +50,7 @@
 <div id="calendar">
   <div class="padded-xs"></div>
     <div class="container text-center thumbnail">
-      <h3><strong>GESTION DES RÉSERVATIONS</strong></h3>
+      <h3><%= image_tag "calendar.svg"%> <strong>GESTION DES RÉSERVATIONS</strong></h3>
       <hr>
     </div>  
   </div>
@@ -59,7 +59,7 @@
 <div id="profil">
   <div class="padded-xs"></div>
     <div class="container text-center thumbnail">
-      <h3><strong>OPTIMISER VOTRE PROFIL</strong></h3>
+      <h3><%= image_tag "profil.svg"%> <strong>OPTIMISER VOTRE PROFIL</strong></h3>
       <hr>
     </div>  
   </div>
@@ -67,12 +67,30 @@
 
 <div id="bag">
   <div class="padded-xs"></div>
-    <div class="container text-center thumbnail">
-      <h3><strong>ACCUEILLIR VOS HÔTES ET ENTRETENIR VOTRE BIEN</strong></h3>
+    <div class="container thumbnail">
+      <h3><%= image_tag "bag.svg"%> <strong>L'ACCUEIL DE VOS HÔTES</strong></h3>
       <hr>
-    </div>  
-  </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 text-center"> 
+            <%= image_tag "lovepen.jpg"%> 
+        </div>
+        <div class="col-sm-12 col-md-6"> 
+            <p>L’accueil de vos voyageurs déterminera l’essentiel d’un <strong>avis positif</strong>  , c’est pourquoi:
+                  </p>
+                  <br>
+                  <ul>
+                    <li><i class="fa fa-check-square-o"></i> Après une première communication avec vos voyageurs, nous assurons nous même l’accueil</li>
+                    <li><i class="fa fa-check-square-o"></i> Nous leur donnons vos consignes concernant l’appartement et procédons à la remise des clés</li>
+                    <li><i class="fa fa-check-square-o"></i> Nous mettons à leur disposition un guide incluant: les codes internet, un plan de la ville et du métro, les évènements du mois et les bonnes adresses du quartier</li>
+                    <li><i class="fa fa-check-square-o"></i> Au moment du départ, nous leur offrons <strong>un petit cadeau souvenir</strong> de leur séjour</li>
+                  </ul> 
+          </div>
+        </div>
+      </div>
 </div>
+
+
+
 
 <div class="padded-xs"></div>
 
