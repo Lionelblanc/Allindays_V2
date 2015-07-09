@@ -9508,15 +9508,16 @@ a {
   margin-bottom: 20px; }
 /* line 22, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
 .thumbnail ul {
-  list-style-type: none; }
+  list-style-type: none;
+  padding-left: 0; }
 
-/* line 27, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
+/* line 28, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
 img {
   padding-top: 20px;
   width: 400px;
-  border-radius: 20px; }
+  border-radius: 15px; }
 
-/* line 32, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
+/* line 33, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
 p {
   padding-top: 20px; }
 
