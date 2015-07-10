@@ -9455,39 +9455,46 @@ a {
   margin-bottom: 2em;
   width: 110px;
   height: 110px; }
+/* line 26, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+.feature p {
+  margin-bottom: 3em; }
+/* line 29, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+.feature h3 {
+  margin-bottom: 2em; }
 
-/* line 28, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
-.testimonials {
-  padding: 40px;
+/* line 34, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+#testimonials {
+  padding: 20px;
   margin: 10px; }
-  /* line 31, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
-  .testimonials img {
-    width: 30%;
-    margin: O auto; }
+  /* line 37, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+  #testimonials img {
+    margin-bottom: 2em;
+    width: 110px;
+    height: 110px; }
 
-/* line 37, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+/* line 45, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
 .guests {
   padding: 40px;
   margin: 10px; }
-  /* line 40, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+  /* line 48, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
   .guests img {
-    width: 30%;
+    max-height: 50px;
     margin: O auto; }
 
-/* line 46, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+/* line 54, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
 .thumbnail {
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   background: white;
   padding: 40px; }
-  /* line 50, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+  /* line 58, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
   .thumbnail img {
     padding: 10px; }
 
-/* line 55, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+/* line 63, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
 .team {
   padding: 40px;
   margin: 10px; }
-  /* line 58, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
+  /* line 66, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
   .team img {
     width: 30%;
     margin: O auto; }
