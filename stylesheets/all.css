@@ -9457,20 +9457,20 @@ a {
   height: 110px; }
 
 /* line 28, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
-.testimonial {
+.testimonials {
   padding: 40px;
   margin: 10px; }
   /* line 31, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
-  .testimonial img {
+  .testimonials img {
     width: 30%;
     margin: O auto; }
 
 /* line 37, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
-.guest {
+.guests {
   padding: 40px;
   margin: 10px; }
   /* line 40, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_home.css.scss */
-  .guest img {
+  .guests img {
     width: 30%;
     margin: O auto; }
 
@@ -9501,26 +9501,26 @@ a {
   color: #CBAB54; }
 
 /* line 12, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
-.thumbnail h3 {
+#chat h3, #calendar h3, #profil h3, #bag h3 {
   text-align: center; }
   /* line 14, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
-  .thumbnail h3 img {
+  #chat h3 img, #calendar h3 img, #profil h3 img, #bag h3 img {
     height: 60px;
     width: 60px; }
 /* line 19, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
-.thumbnail li {
+#chat li, #calendar li, #profil li, #bag li {
   margin-bottom: 20px; }
 /* line 22, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
-.thumbnail ul {
+#chat ul, #calendar ul, #profil ul, #bag ul {
   list-style-type: none;
   padding-left: 0; }
 /* line 26, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
-.thumbnail img {
+#chat img, #calendar img, #profil img, #bag img {
   padding-top: 20px;
   width: 400px;
   border-radius: 15px; }
 /* line 31, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
-.thumbnail p {
+#chat p, #calendar p, #profil p, #bag p {
   padding-top: 20px; }
 
 /*
