@@ -71,7 +71,7 @@
     <% data.testimonials.each do |testimonial| %>
       <div class="row">
         <div class="col-xs-12 col-sm-6">
-          <div class="testimonial slideUp">
+          <div class="testimonial">
             <%= image_tag testimonial.image_file, class: "img-circle" %>
             <h3><%= testimonial.name %></h3>
             <p> <i class="fa fa-quote-left"></i> <%= testimonial.content %> <i class="fa fa-quote-right"></i></p>
@@ -89,7 +89,7 @@
     <% data.guests.each do |guest| %>
       <div class="row">
         <div class="col-xs-12 col-sm-6">
-          <div class="guest slideUp">
+          <div class="guest">
             <%= image_tag guest.image_file, class: "img-circle" %>
             <h3><%= guest.name %></h3>
             <p><i class="fa fa-quote-left"></i>  <%= guest.content %> <i class="fa fa-quote-right"></i></p>
