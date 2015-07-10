@@ -73,6 +73,9 @@ $navbar-profile-border-width: 2px;
     color: $navbar-color;
     padding-top: $navbar-vertical-padding;
     padding-bottom: $navbar-vertical-padding;
+    img {
+    width: 160px;
+    }
   }
 
   .navbar-nav > li > a.btn {
