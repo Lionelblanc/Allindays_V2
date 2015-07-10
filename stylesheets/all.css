@@ -9313,7 +9313,11 @@ a {
     color: black;
     padding-top: 5px;
     padding-bottom: 5px; }
-  /* line 79, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
+    /* line 77, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
+    .navbar-wagon .navbar-brand img,
+    .navbar-wagon .navbar-brand:hover img {
+      width: 160px; }
+  /* line 82, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > a.btn {
     line-height: 40px;
     padding: 0 10px;
@@ -9323,30 +9327,30 @@ a {
     font-weight: bold;
     background-color: lightgrey;
     font-size: 12px; }
-    /* line 88, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
+    /* line 91, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
     .navbar-wagon .navbar-nav > li > a.btn:hover {
       background-color: #868686; }
-  /* line 93, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 96, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px;
     padding: 0px; }
-  /* line 98, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 101, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .img-avatar {
     border: 2px solid white;
     box-shadow: 0 0 2px #c8c8c8;
     height: 46px;
     margin-right: 10px;
     border-radius: 50%; }
-  /* line 106, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 109, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-toggle {
     border-color: #dddddd;
     width: 45px;
     background: transparent; }
-  /* line 112, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 115, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu {
     border-radius: 0;
     margin-top: 10px; }
-  /* line 117, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 120, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-nav > li > .dropdown-menu:before {
     position: absolute;
     background: white;
@@ -9366,10 +9370,10 @@ a {
  * Navbar profile picture
  * ------------------------------------- */
 @media screen and (max-width: 768px) {
-  /* line 140, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 143, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand img, .navbar-wagon .navbar-brand svg {
     height: 50px; }
-  /* line 143, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
+  /* line 146, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/layout/_navbar.css.scss */
   .navbar-wagon .navbar-brand, .navbar-wagon .navbar-brand:hover {
     display: block;
     color: black;
@@ -9510,15 +9514,13 @@ a {
 .thumbnail ul {
   list-style-type: none;
   padding-left: 0; }
-
-/* line 28, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
-img {
+/* line 26, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
+.thumbnail img {
   padding-top: 20px;
   width: 400px;
   border-radius: 15px; }
-
-/* line 33, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
-p {
+/* line 31, /Users/lionelblanc/Desktop/github-pages/Allindays_V2/source/stylesheets/pages/_services.css.scss */
+.thumbnail p {
   padding-top: 20px; }
 
 /*
