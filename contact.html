@@ -61,32 +61,14 @@
       </div>
     </div>
     <div class="row">
-       <div class="col-xs-6 col-sm-6 col-md-6 text-center">
-        <p><i class="fa fa-envelope-o fa-2x"></i> E-mail: contact@allindays.com</p>
-        <br>
-      </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 text-center">   
-        <p><i class="fa fa-phone fa-2x"></i> 09 83 33 48 81</p>
-      </div>
-    </div> 
-    <div class="row">
-       <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-        <p><i class="fa fa-home fa-2x"></i> Société par action simplifiée au capital de 10000 EUR - Siret - 807 786 868 00016 - Numéro de TVA - FR 13807786868</p>
-        <hr>
-      </div>
-    </div> 
-
+      <div class="col-md-8">
         <h4>Nous sommes ici:</h4>
-        
-        <p><i class="fa fa-map-marker fa-2x"></i> 131 Boulevard Pereire, 75017 Paris</p>
         <br>
-          <div id="map" style="width: 100%; height: 350px;">
-          </div>
-
+        <div id="map" style="width: 100%; height: 350px;">
+        </div>
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
         <script type="text/javascript">
         var myLatlng = new google.maps.LatLng(48.884134,2.296351);
-
         var myOptions = {
         zoom: 16,
         center: myLatlng,
@@ -101,8 +83,29 @@
               title: "You are here!"
           });
       </script>
+      </div>
+      <div class="col-md-4">
+          <div class="padded-xs"></div>
+          <p><i class="fa fa-map-marker"></i> 131 Boulevard Pereire, 75017 Paris</p>
+          <p><i class="fa fa-phone"></i> 
+              <abbr title="Phone">P</abbr>: 09 83 33 48 81</p>
+          <p><i class="fa fa-envelope-o"></i> 
+              <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">contact@allindays.com</a>
+          </p>
+          <p><i class="fa fa-clock-o"></i> 
+              <abbr title="Hours">H</abbr>: Lundi - Vendredi: 9:00 à 19:00</p>
+          <ul class="list-unstyled list-inline list-social-icons">
+              <li>
+                  <a href=""> <i class="fa fa-facebook-square fa-2x"></i></a>
+              </li>
+              <li>
+                  <a href=""> <i class="fa fa-linkedin-square fa-2x"></i></a>
+              </li>
+          </ul>
+          <p><i class="fa fa-home"></i> Société par action simplifiée au capital de 10000 EUR - Siret - 807 786 868 00016 - Numéro de TVA - FR 13807786868</p>
+      </div>
     </div>
-  </div>
+  </div> 
 </div>
 
 <div id="teams">
