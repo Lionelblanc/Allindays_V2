@@ -15,7 +15,7 @@
         <i class="fa fa-chevron-down fa-3x pulse"></i>
         <% end %>
 
-<div class="padded-xs"></div>
+        <div class="padded-xs"></div>
       </div>        
     </div>              
   </div>
@@ -66,20 +66,21 @@
 <div class="padded"></div>
 
 <div id="testimonials">
-<div class="padded-xs"></div>
-  <div class="container text-center thumbnail">
-    <h3><strong>L'AVIS DES PROPRIETAIRES</strong></h3>
-    <hr>
-    <% data.testimonials.each do |testimonial| %>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <div class="testimonial">
-            <h3><%= image_tag testimonial.image_file, class: "img-circle" %><%= testimonial.name %></h3>
-            <p> <i class="fa fa-quote-left"></i> <%= testimonial.content %> <i class="fa fa-quote-right"></i></p>
+  <div class="padded-xs"></div>
+    <div class="container text-center thumbnail">
+      <h3><strong>L'AVIS DES PROPRIETAIRES</strong></h3>
+      <hr>
+      <% data.testimonials.each do |testimonial| %>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <div class="testimonial">
+              <h3><%= image_tag testimonial.image_file, class: "img-circle" %><%= testimonial.name %></h3>
+              <p> <i class="fa fa-quote-left"></i> <%= testimonial.content %> <i class="fa fa-quote-right"></i></p>
+            </div>
           </div>
-        </div>
-    <% end %>
-      </div>  
+      <% end %>
+        </div>  
+    </div>
   </div>
 </div>
 
