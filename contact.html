@@ -36,13 +36,13 @@
 <a href="services.html">                 <i class="fa fa-key"></i> Nos services
 </a>             </li>
              <li>
-               <a href="/formules.html">Les formules
+<a href="/formules.html">               <i class="fa fa-dollar"></i> Les formules
 </a>             </li>
              <li>
-               <a href="contact.html">Contact
+<a href="/modal">               <i class="fa fa-phone"></i> Contact
 </a>             </li>
              <li>
-<a href="/connect.html">                 <buttontype="submit" class="btn btn-danger"><strong>PROPOSER MON APPART</strong></button> 
+<a href="/connect.html">                 <buttontype="submit" class="btn btn-danger"><strong>PROPOSER MON LOGEMENT</strong></button> 
 </a>             </li>
            </ul>
          </div><!-- /.navbar-collapse -->
@@ -88,12 +88,12 @@
           <div class="padded-xs"></div>
           <p><i class="fa fa-map-marker"></i> 131 Boulevard Pereire, 75017 Paris</p>
           <p><i class="fa fa-phone"></i> 
-              <abbr title="Phone">P</abbr>: 09 83 33 48 81</p>
+              <abbr title="Phone"></abbr> 09 83 33 48 81</p>
           <p><i class="fa fa-envelope-o"></i> 
-              <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">contact@allindays.com</a>
+              <abbr title="Email"></abbr> <a href="mailto:name@example.com">contact@allindays.com</a>
           </p>
           <p><i class="fa fa-clock-o"></i> 
-              <abbr title="Hours">H</abbr>: Lundi - Vendredi: 9:00 à 19:00</p>
+              <abbr title="Hours">Horaires</abbr>: du Lundi au Vendredi: 9:00 à 19:00. Service de remise des clés et d'accueil de vos clients 24h/24 et 7j/7</p>
           <ul class="list-unstyled list-inline list-social-icons">
               <li>
                   <a href=""> <i class="fa fa-facebook-square fa-2x"></i></a>
@@ -102,7 +102,6 @@
                   <a href=""> <i class="fa fa-linkedin-square fa-2x"></i></a>
               </li>
           </ul>
-          <p><i class="fa fa-home"></i> Société par action simplifiée au capital de 10000 EUR - Siret - 807 786 868 00016 - Numéro de TVA - FR 13807786868</p>
       </div>
     </div>
   </div> 
@@ -135,6 +134,8 @@
         <div class="col-xs-12 col-sm-12">
           <p>Professionnels de l'immobilier Parisien <strong>depuis plus de 10 ans</strong>, nous sommes également de grands connaisseurs de la vie parisienne et de sa saisonnalité. Paris est pour nous ​un berceau culturel chargé d'histoire avec des monuments époustouflants, de grandes marques luxueuses dont la réputation n'est plus à faire. Notre équipe se met à votre service pour rendre votre séjour Parisien le plus confortable pour vous, vous n'aurez qu'à profiter de votre voyage nous nous occupons du reste !
           </p>
+          <div class="padded-xs"></div>
+          <p><i class="fa fa-home"></i> Allindays - Société par action simplifiée au capital de 10000 EUR - Siret - 807 786 868 00016 - Numéro de TVA - FR 13807786868</p>
       </div>
     </div>    
   </div>    
@@ -153,17 +154,84 @@
              <h4 class="modal-title" id="myModalLabel">Order your stylus</h4>
            </div>
            <div class="modal-body">
-             <form action="">
-               <div class="form-group">
-                 <label for="email">Your email</label>
-                 <input type="email" id="email" class="form-control" placeholder="alan@turing.org">
-               </div>
-               <div class="form-group">
-                 <label for="telephone">Your phone</label>
-                 <input type="text" id="telephone" class="form-control" placeholder="+33 6 42 42 42 42">
-               </div>
-               <input type="submit" value="Join the wait list" class="btn btn-danger btn-rounded btn-lg">
-             </form>
+             <form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>PROPOSER MON LOGEMENT</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Nom</label>  
+  <div class="col-md-5">
+  <input id="textinput" name="textinput" type="text" placeholder="Nom" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Prénom</label>  
+  <div class="col-md-5">
+  <input id="textinput" name="textinput" type="text" placeholder="Prénom" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Adresse</label>  
+  <div class="col-md-5">
+  <input id="textinput" name="textinput" type="text" placeholder="Adresse" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Code postal</label>  
+  <div class="col-md-5">
+  <input id="textinput" name="textinput" type="text" placeholder="Code postal" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Ville</label>  
+  <div class="col-md-5">
+  <input id="textinput" name="textinput" type="text" placeholder="Ville" class="form-control input-md">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea">Commentaires</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="textarea" name="textarea">Décrivez nous votre demande, la disponibilité et les points forts de votre logement</textarea>
+  </div>
+</div>
+
+<!-- File Button --> 
+<div class="form-group">
+  <label class="col-md-4 control-label" for="filebutton">Photos du logement</label>
+  <div class="col-md-4">
+    <input id="filebutton" name="filebutton" class="input-file" type="file">
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="singlebutton" class="btn btn-danger">ENVOYER MA DEMANDE</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
            </div>
          </div>
        </div>
@@ -198,7 +266,7 @@
                </ul>
              </div>
 
-             <div class="col-xs-6 col-md-9">
+             <div class="col-xs-6 col-md-9 text-right">
              <p><a href="mailto:contact@allindays.com?Subject=Hey! Trop bien ce site de location d'appartement'" target="_top">Contactez-nous</a>
                </p>
                </div>
